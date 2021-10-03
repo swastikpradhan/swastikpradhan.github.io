@@ -61,7 +61,9 @@ html {
      display: flex;
      position: fixed;
      background-color: var(--light-one);
-    /* z-index: 90;
+     backdrop-filter: saturate(180%) blur(20px);
+     background-color: rgba(255,255,255,0.72);
+     /* z-index: 90;
      */
 }
  .logo{
@@ -759,8 +761,6 @@ html {
      border-radius: 3rem;
 }
  .blog-frame-box1:hover {
-    /* background-colorgb(81, 167, 170)lue;
-     */
      margin-top: -0.7rem ;
      transition: 0.4s;
      box-shadow: 0px 13px 25px -19px rgba(67, 165, 224, 1);
@@ -779,15 +779,27 @@ html {
      transition: 0.4s;
      box-shadow: 0px 13px 25px -19px rgba(67, 165, 224, 1);
 }
- .frame-image{
+.frame-image{
      width: 100%;
      height: 100%;
      transition: 0.3s;
+     ;
+}
+.blog-frame-box3:hover .frame-image{
+     transform: scale(1.05);
+     transition: 0.6s;
      box-shadow: 1px 7px 14px 0px rgba(184, 191, 191, 1);
 }
- .frame-image:hover{
-     scale: 1.1;
+.blog-frame-box2:hover .frame-image{
+     transform: scale(1.05);
      transition: 0.6s;
+     box-shadow: 1px 7px 14px 0px rgba(184, 191, 191, 1);
+}
+
+.blog-frame-box1:hover .frame-image{
+     transform: scale(1.05);
+     transition: 0.6s;
+     box-shadow: 1px 7px 14px 0px rgba(184, 191, 191, 1);
 }
  .blog-frame-box-content-text{
      padding: 2rem;
@@ -878,6 +890,7 @@ html {
      padding-bottom: 2rem;
 }
  .testimonial-heading-lower-text{
+     padding: 2rem 12rem;
      font-size: 18px;
      color: var(--dark-two);
      font-weight: normal;
