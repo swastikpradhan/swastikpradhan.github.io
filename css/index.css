@@ -26,12 +26,9 @@ body,
 input,
 textarea {
   font-family: Poppins, sans-serif;
-
-}
-html {
   scroll-behavior: smooth;
-
 }
+
  main{
      width: 100%;
 }
@@ -62,7 +59,7 @@ header {
      position: fixed;
      background-color: var(--light-one);
      backdrop-filter: saturate(180%) blur(20px);
-     background-color: rgba(255,255,255,0.72);
+     background-color: #ffffffb8;
      /* z-index: 90;
      */
 }
@@ -93,12 +90,13 @@ header {
 }
  .nav-text{
      color: #4e4949;
+
 }
  .nav-text:hover{
      scale: 1.06;
-    /* font-weight: bold;
-     */
-     color: #f93a13;
+     transition: 0.2s;
+     color: #5013f9;
+     border-bottom: groove;
 }
  li {
      display: inline-block;
@@ -156,24 +154,23 @@ header {
      padding-top: 12rem;
 }
  .header-content{
-     width: 100%;
+     width: auto;
      height: 100%;
 }
  .column1 {
-     width: 40%;
+     width: 50%;
 }
  .column2 {
-     width: 60%;
-     height: 50%;
+     width: 50%;
 }
  .image2 {
      float: right;
      position: relative;
      display: flex;
-     /* align-items: center; */
      justify-content: center;
      height: 40rem;
      width: 44rem;
+     position: relative;
 }
  .header-name {
      font-size: 4.8rem;
@@ -975,7 +972,11 @@ header {
      justify-items: center;
      padding: 12px 14px;
      align-items: center;
-     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+     transition: 1s;
+}
+.info:hover .contact-icon {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: 1s;
 }
  .contact-info{
      margin-left: 2rem;
