@@ -1339,3 +1339,11 @@ header {
     /* transform: 3s;
      */
 }
+
+
+
+/* new header */
+
+.sp{
+ display: flex;
+}
