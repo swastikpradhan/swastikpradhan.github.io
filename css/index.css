@@ -1308,6 +1308,7 @@ header {
      right: 20px;
      z-index: 2;
      box-shadow: 1px 7px 14px 0px rgba(184, 191, 191, 1);
+     margin-bottom: 1.6rem;
 }
  .containerr .cardd .imgbx img{
      max-width: 100%;
